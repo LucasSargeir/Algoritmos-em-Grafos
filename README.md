@@ -16,7 +16,7 @@ Apesar de nem sempre levar vantagem, se garantirmos algumas propriedades, nosso 
 
   Uma solução ótima pode ser alcançada através de escolhas ótimas locais; 
 
-- **Subestrutura ótima: **
+- **Subestrutura ótima:**
 
   A solução ótima do problema pode ser construída a partir da solução ótima dos subproblemas. 
 
