@@ -6,8 +6,6 @@ Um algoritmo guloso é um algoritmo que visa sempre buscar o melhor caminho a ca
 
 Certamente, seguindo o paradigma guloso, o algoritmo seguiria pelo caminho em vermelho, quando na verdade o que nos levaria ao ótimo global é o marcado em verde.
 
-
-
 ## Garantia do Ótimo Global
 
 Apesar de nem sempre levar vantagem, se garantirmos algumas propriedades, nosso algoritmo poderá sempre nos levar a um ótimo global, e isso pode ser de grande ajuda, considerando que algoritmos gulosos não são difíceis de implementar. Vejamos então que propriedades são essas:
@@ -16,7 +14,7 @@ Apesar de nem sempre levar vantagem, se garantirmos algumas propriedades, nosso 
 
   Uma solução ótima pode ser alcançada através de escolhas ótimas locais; 
 
-- **Subestrutura ótima: **
+- **Subestrutura ótima:**
 
   A solução ótima do problema pode ser construída a partir da solução ótima dos subproblemas. 
 
