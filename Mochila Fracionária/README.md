@@ -20,7 +20,7 @@ Suponha que temos uma uma mochila fracionária com uma capacidade limitada. Alé
 
 Considere os 3 items abaixo com as suas respectivas informações:
 
-![exemplo2](/home/lucas/Documents/CEFET/Aula/Algoritmos em Grafos/Algortimos Gulosos/images/exemplo2.png)
+![exemplo2](https://github.com/LucasSargeir/Algoritmos-Gulosos/blob/master/images/exemplo2.png)
 
 
 
