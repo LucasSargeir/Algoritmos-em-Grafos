@@ -26,6 +26,8 @@ Nesse processo resolvemos cada um dos subproblemas e sempre guardamos os valores
 
 - Subestrutura ótima: A solução do problema pode ser construido a partir da solução ótima dos subproblemas. 
 
+  
+
 
 
 ## Abordagens
@@ -117,4 +119,14 @@ int Fib(int n){
 - Pode evitar o cáculo de subproblemas que não são necessários pro caso solicitado; 
 - Costuma ser mais intuitivo. 
 
- 
+
+
+
+
+ ## Exemplos
+
+Alguns exemplos famosos da aplicações de algoritmos gulosos são: 
+
+- [Coin Change](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Programa%C3%A7%C3%A3o%20Din%C3%A2mica/Coin%20Change); 
+- [Longest Common Subsequence (LCS)](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Programa%C3%A7%C3%A3o%20Din%C3%A2mica/Longest%20Common%20Subsequence); 
+- [Maleta 0-1](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Programação Dinâmica/Maleta 0-1). 
