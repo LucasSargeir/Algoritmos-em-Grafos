@@ -1,6 +1,6 @@
 # Algoritmos Gulosos 
 
-Um algoritmo guloso é um algoritmo que visa sempre buscar o melhor caminho a cada tomada de decisão, sem se importar com o que virá na próxima iteração, e por isso os chamamos de gulosos. Uma desvantagem desse paradigma de programação é que, apesar de sempre nos apontar um ótimo local, nem sempre esse ótimo local vai nos levar a um ótimo global. Veja o exemplo;
+Um algoritmo guloso é um paradigma de programação que visa sempre buscar o melhor caminho a cada tomada de decisão, sem se importar com o que virá na próxima iteração, e por isso os chamamos de gulosos. Uma desvantagem desse paradigma de programação é que, apesar de sempre nos apontar um ótimo local, nem sempre esse ótimo local vai nos levar a um ótimo global. Veja o exemplo;
 
 ![exemplo1](https://github.com/LucasSargeir/Algoritmos-Gulosos/blob/master/images/exemplo1.png)
 
