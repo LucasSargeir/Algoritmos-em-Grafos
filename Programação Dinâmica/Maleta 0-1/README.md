@@ -24,7 +24,7 @@ Suponha que temos uma maleta que possui uma capacidade e diversos items que poss
 
 Considere os 5 items abaixo com as suas respectivas informações:
 
-![exemplo4](/home/lucas/Documents/CEFET/Aula/Algoritmos em Grafos/Repositório do Git/images/exemplo4.png)
+![exemplo4](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo4.png)
 
 
 
