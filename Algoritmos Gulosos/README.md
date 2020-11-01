@@ -24,6 +24,6 @@ Apesar de nem sempre levar vantagem, se garantirmos algumas propriedades, nosso 
 
 Alguns exemplos famosos da aplicações de algoritmos gulosos são: 
 
-- [Mochila fracionária](https://github.com/LucasSargeir/Algoritmos-Gulosos/tree/master/Mochila%20Fracion%C3%A1ria); 
-- [Problema de Seleão de atividades](https://github.com/LucasSargeir/Algoritmos-Gulosos/tree/master/Sele%C3%A7%C3%A3o%20de%20Atividades); 
-- [Problema de sequenciamento de tarefas](https://github.com/LucasSargeir/Algoritmos-Gulosos/tree/master/Sequenciamento%20de%20Tarefas). 
+- [Mochila fracionária](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Algoritmos%20Gulosos/Mochila%20Fracion%C3%A1ria); 
+- [Problema de Seleão de atividades](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Algoritmos%20Gulosos/Sele%C3%A7%C3%A3o%20de%20Atividades); 
+- [Problema de sequenciamento de tarefas](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Algoritmos%20Gulosos/Sequenciamento%20de%20Tarefas). 
