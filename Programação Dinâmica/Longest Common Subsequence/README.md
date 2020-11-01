@@ -24,7 +24,7 @@ Suponha que temos duas strings. Como podemos descobrir a maior substring possív
 
 Considere as strings abaixo:
 
-![exemplo3](/home/lucas/Documents/CEFET/Aula/Algoritmos em Grafos/Repositório do Git/images/exemplo3.png)
+![exemplo3](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo3.png)
 
 Considere os exemplos de substring, como podemos encontrar o maior tamanho possível de substring.
 
