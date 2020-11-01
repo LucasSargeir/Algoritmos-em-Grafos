@@ -129,4 +129,4 @@ Alguns exemplos famosos da aplicações de algoritmos gulosos são:
 
 - [Coin Change](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Programa%C3%A7%C3%A3o%20Din%C3%A2mica/Coin%20Change); 
 - [Longest Common Subsequence (LCS)](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Programa%C3%A7%C3%A3o%20Din%C3%A2mica/Longest%20Common%20Subsequence); 
-- [Maleta 0-1](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Programa%C3%A7%C3%A3o%20Din%C3%A2mica/Maleta 0-1). 
+- [Maleta 0-1](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Programa%C3%A7%C3%A3o%20Din%C3%A2mica/Maleta%200-1). 
