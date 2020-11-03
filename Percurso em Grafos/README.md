@@ -4,18 +4,18 @@
 
 Busca:
 
-- [Busca em Profundidade]()
-- [Busca em Largura]()
+- [Busca em Profundidade](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Percurso%20em%20Grafos/Busca/Busca%20em%20Profundidade)
+- [Busca em Largura](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Percurso%20em%20Grafos/Busca/Busca%20em%20Largura)
 
 Problemas:
 
-- [Caminho Mínimo]()
+- [Caminho Mínimo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/tree/master/Percurso%20em%20Grafos/Problemas/Caminho%20Minimo)
 
 
 
 ### Módulo Graph (Python)
 
-Na tentativa de falicitar o trabalho de manipulação de grafos, comecei a criar um módulo para trabalhar em cima dos problemas. Se quiser saber mais sobre o módulo veja a [documentação]().
+Na tentativa de falicitar o trabalho de manipulação de grafos, comecei a criar um módulo para trabalhar em cima dos problemas. Se quiser saber mais sobre o módulo veja a [documentação](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/Percurso%20em%20Grafos/graph_module.md).
 
 ## Busca em Grafos
 
