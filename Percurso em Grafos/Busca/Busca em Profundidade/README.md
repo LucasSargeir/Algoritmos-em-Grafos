@@ -17,7 +17,7 @@ Seguindo essa ideia podemos fazer de duas formas:
 
 Considere o grafo abaixo abaixo:
 
-![exemplo5](/home/lucas/Documents/CEFET/Aula/Algoritmos em Grafos/Repositório do Git/images/exemplo5.png)
+![exemplo5](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo5.png)
 
 **Visita em Pré-Ordem :**
 
