@@ -1,6 +1,18 @@
 # Busca em Largura
 
-A ideia da busca em largura é, partindo de um vertice, adicionar ele em uma fila. Para cada elemento da fila buscamos o primeiro elemento, mostramos o seu valor, e adicionamos seus vértices adjacentes, que não foram visitados ainda, no final da fila e remover o elemento da fila. Realizar esse o processo até que a fila esteja vazia.
+Problema proposto na disciplina de Algoritmos em Grafos do curso de Bacharelado em Ciência da Computação no CEFET-RJ (Maracanã).
+
+
+
+**Tecnologias:**
+
+- Python (3.9)
+
+
+
+## Conceito
+
+O conceito da busca em largura é, partindo de um vertice, adicionar ele em uma fila. Para cada elemento da fila buscamos o primeiro elemento, mostramos o seu valor, e adicionamos seus vértices adjacentes, que não foram visitados ainda, no final da fila e remover o elemento da fila. Realizar esse o processo até que a fila esteja vazia.
 
 
 

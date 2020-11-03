@@ -5,24 +5,26 @@ class Graph:
 	def __init__(self, matrix):
 		num_vertices = len(matrix)
 		for i in matrix:
-			if len(i) != num_vertices:
+			if len(i) < num_vertices:
 				raise Exception('Missing vertices in adjacency matrix on line '+ str(i) +' | code 01')
+			if len(i) > num_vertices:
+				raise Exception('To much vertices in adjacency matrix on line '+ str(i) +' | code 02')
 		self.__matrix = matrix
 
 	def __str__(self):
 		return self.__print_matix()
 
-	def get_matrix(self):
+	def get_matrix(self)->list:
 		return self.__matrix
 
-	def get_adj_list(self, index: int):
+	def get_adj_list(self, index: int)->list:
 		adj = []
 		for i in range(len(self.__matrix[index])):
 			if self.__matrix[index][i] != infinity:
 				adj.append(i)
 		return adj
 
-	def get_total_v(self):
+	def get_total_v(self)->int:
 		return len(self.__matrix)
 
 	def __print_matix(self):

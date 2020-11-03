@@ -1,6 +1,18 @@
 # Busca em Profundidade
 
-A ideia da busca em profundidade visa, partindo de um vertice, verificar todos os visinhos dele que ainda não foram visitados e mostrar os valores de cada um. 
+Problema proposto na disciplina de Algoritmos em Grafos do curso de Bacharelado em Ciência da Computação no CEFET-RJ (Maracanã).
+
+
+
+**Tecnologias:**
+
+- Python (3.9)
+
+
+
+## Conceito
+
+O conceito da busca em profundidade visa, partindo de um vertice, verificar todos os visinhos dele que ainda não foram visitados e mostrar os valores de cada um. 
 
 Seguindo essa ideia podemos fazer de duas formas: 
 
