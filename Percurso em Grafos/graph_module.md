@@ -14,7 +14,7 @@ Módulo criado com o objetivo de facilitar a manipulação de grafos.
 
   Uma matriz de adjancência é uma matriz que guarda a quais vétices cada um dos outros estão ligados e seus respectivos pesos. Veja o exemplo:
 
-  ![](/home/lucas/Documents/CEFET/Aula/Algoritmos em Grafos/Repositório do Git/images/exemplo6.png)
+  ![](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo6.png)
 
   Tem como matriz de adjacência a tabela abaixo:
   
