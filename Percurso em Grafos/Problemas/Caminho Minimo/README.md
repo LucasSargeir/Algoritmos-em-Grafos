@@ -1,0 +1,6 @@
+# Caminho Mínimo
+
+
+
+
+
