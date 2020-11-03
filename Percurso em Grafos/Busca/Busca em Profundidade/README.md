@@ -107,6 +107,8 @@ Vejamos um exemplo de visita em pré ordem partindo do vértice 2:
 
 
 
+
+
 **Visita em Pós-Ordem :**
 
 A visita em pós ordem ocorre da mesma forma que o exemplo acima, a única diferença é que ele so mostra o valor do elemento depois de percorrer os vizinhos, veja:
