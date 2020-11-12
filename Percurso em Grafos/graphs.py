@@ -41,3 +41,9 @@ class Graph:
 				text += str(graph[i][j])+'\t'
 			text += '\n'
 		return text
+
+def print_m(matrix):
+	for i in range(len(matrix)):
+		for j in range(len(matrix[i])):
+			print(matrix[i][j], end ='\t')
+		print()

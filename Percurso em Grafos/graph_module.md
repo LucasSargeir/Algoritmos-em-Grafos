@@ -31,34 +31,39 @@ Módulo criado com o objetivo de facilitar a manipulação de grafos.
   
 ## Módulo
 
-### Construtores
+
+
+### Classe Graph
+
+#### Construtor
 
 - `Graph(<matrix[N][N]>)`
 
   Esse construtor recebe uma matriz de adjacência para criar o grafo.
 
-  #### Exemplo
-```python
+  ##### Exemplo
+
+	```python
 graph = Graph([ [ 0 , 4 , 2 ,inf,inf],
-		[inf, 0 , 3 , 2 , 3 ],
-		[inf, 1 , 0 , 4 , 5 ],
-		[inf,inf,inf, 0 ,inf],
-		[inf,inf,inf, 1 , 0 ] ])
-```
-  
+				[inf, 0 , 3 , 2 , 3 ],
+				[inf, 1 , 0 , 4 , 5 ],
+				[inf,inf,inf, 0 ,inf],
+				[inf,inf,inf, 1 , 0 ] ])
+	```
+
   > _**Obs:** Os grafos estão indexados pelas posições do Array, onde o índice = V -1_
 
 
 
-### Atributos
+#### Atributos
 
-- `__matrix[N][N]`
+- `	__matrix[N][N]`
 
   Atributo que guarda a matriz de adjacência de um grafo onde N é o número de vértices. Perceba que o atributo é privado, para acessá-lo você pode utilizar o método `get_matrix()` especificado na sessão de métodos.
 
 
 
-### Infinito
+#### Infinito
 
 - `infinity`
 
@@ -68,7 +73,7 @@ graph = Graph([ [ 0 , 4 , 2 ,inf,inf],
 
 
 
-### Métodos
+#### Métodos
 
 - `get_matrix(self)->list`
 
@@ -103,9 +108,27 @@ graph = Graph([ [ 0 , 4 , 2 ,inf,inf],
   #(5)      inf     inf     inf      1       0	
   ```
 
+
+
+
+### Métodos do Módulo
+
+- `print_m(matrix)`
+
+  Método que imprime uma matriz no formato padrão, veja o exemplo:
+
+  ```python
+  # 1    2    3    4
+  # 5    6    7    8
+  # 9    1    2    3
+  # 4    5    6    7
+  ```
+
   
 
-  ## Possíveis Erros
+
+
+## Possíveis Erros
 
 - Code 01:
 

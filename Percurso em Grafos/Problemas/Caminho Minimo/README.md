@@ -27,9 +27,13 @@ Para solucionar o problema de caminho mínimo em um grafo podemos utilizar algun
 
 ## Dijkstra
 
+O algortimo de Dijkstra pode ser usado para encontrar o menor caminho caminho entre um vértice e todos os outros de um determinado grafo. Embora seja um algoritmo simples de implementar e que funcione de forma eficiente, o algoritmo de Dijkstra possui a limitação de de todas as arestas devem ter pesos positivos.
 
+A ideia do algoritmo consiste em, para cada vétice visitado, buscar todos os vétices vizinhos, que ainda não foram visitados, e verificar quais os custos para se chegar em cada um deles, anotando tudo em uma lista de distâncias. 
 
+Feito isso verificamos qual desses vértices vizinhos possui o menor custo e caminhamos para ele. É importante ter em mente que o custo para o próximo vétice é sempre a soma do custo para chegar no vertice anterior somado ao custo do caminho entre eles, pois como a análise está sendo feita em relação ao primeiro vétice, quando caminhamos devemos considerar todo o percurso.
 
+Quando todos os vétices tiverem sido visitados teremos em nossa lista de distâncias o menor caminho para cada um dos vértices.
 
 ## Bellman-Ford
 
