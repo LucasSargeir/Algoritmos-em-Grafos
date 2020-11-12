@@ -43,13 +43,13 @@ Módulo criado com o objetivo de facilitar a manipulação de grafos.
 
   ##### Exemplo
 
-	```python
+```python
 graph = Graph([ [ 0 , 4 , 2 ,inf,inf],
 		[inf, 0 , 3 , 2 , 3 ],
 		[inf, 1 , 0 , 4 , 5 ],
 		[inf,inf,inf, 0 ,inf],
 		[inf,inf,inf, 1 , 0 ] ])
-	```
+```
 
   > _**Obs:** Os grafos estão indexados pelas posições do Array, onde o índice = V -1_
 
