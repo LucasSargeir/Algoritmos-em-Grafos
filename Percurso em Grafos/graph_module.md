@@ -25,6 +25,8 @@ Módulo criado com o objetivo de facilitar a manipulação de grafos.
   |  **v5**  |  ∞  |  ∞  |  ∞  |  1  |  0  |
 
   Repare que um vétice sempre tem peso 0 para ir a si mesmo, e tem peso ∞ quando não está ligado a outro vértice.
+  
+  
 
 ## Módulo
 
@@ -38,24 +40,24 @@ Módulo criado com o objetivo de facilitar a manipulação de grafos.
 
   ##### Exemplo
 
-      ```python
+```python
+graph = Graph([ [ 0 , 4 , 2 ,inf,inf],
+		[inf, 0 , 3 , 2 , 3 ],
+		[inf, 1 , 0 , 4 , 5 ],
+		[inf,inf,inf, 0 ,inf],
+		[inf,inf,inf, 1 , 0 ] ])
+```
+> _**Obs:** Os grafos estão indexados pelas posições do Array, onde o índice = V -1_
 
-  graph = Graph([ [ 0 , 4 , 2 ,inf,inf],
-  [inf, 0 , 3 , 2 , 3 ],
-  [inf, 1 , 0 , 4 , 5 ],
-  [inf,inf,inf, 0 ,inf],
-  [inf,inf,inf, 1 , 0 ] ])
 
-  ```
-
-  > _**Obs:** Os grafos estão indexados pelas posições do Array, onde o índice = V -1_
-  ```
 
 #### Atributos
 
 - ` __matrix[N][N]`
 
   Atributo que guarda a matriz de adjacência de um grafo onde N é o número de vértices. Perceba que o atributo é privado, para acessá-lo você pode utilizar o método `get_matrix()` especificado na sessão de métodos.
+
+
 
 #### Infinito
 
@@ -64,6 +66,8 @@ Módulo criado com o objetivo de facilitar a manipulação de grafos.
   Trabalhando com grafos as vezes torna-se necessário utilizar valores muito grandes ou muito pequenos. Para isso você pode utilizar a variável infinity que é importada junto ao módulo.
 
   > _**Obs:** O valor de `infinity` é retirado do módulo math e representa o maior real possível de se representar_
+
+
 
 #### Métodos
 
