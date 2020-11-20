@@ -12,7 +12,7 @@ Problema proposto na disciplina de Algoritmos em Grafos do curso de Bacharelado 
 
 ## Problema
 
-Suponha que temos uma uma mochila fracionária com uma capacidade limitada. Além disso, temos alguns items, que possuem um peso e um valor associados. Por ser uma mochila fracionária podemos pegar frações de items. Dadas as informações de cada item e a capacidade da mochila, como escolher quais itens pegar e em qual fração de cada um, visando maximizar o valor dos items? 
+Suponha que temos uma mochila fracionária com uma capacidade limitada. Além disso, temos alguns items, que possuem um peso e um valor associados. Por ser uma mochila fracionária podemos pegar frações de items. Dadas as informações de cada item e a capacidade da mochila, como escolher quais itens pegar e em qual fração de cada um, visando maximizar o valor dos items? 
 
 
 
