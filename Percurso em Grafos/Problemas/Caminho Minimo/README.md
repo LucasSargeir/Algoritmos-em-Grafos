@@ -41,13 +41,7 @@ Quando todos os vétices tiverem sido visitados teremos em nossa lista de distâ
 
 ![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo10.png)
 
-Atualizamos o custo na tabela de caminhos mínimos, como estamos no vértice inicial o custo é 0.
-
-| Vértices |  0   |  1   |  2   |  3   |  4   |
-| :------- | :--: | :--: | :--: | :--: | :--: |
-| **C.M.** |  0   |  ∞   |  ∞   |  ∞   |  ∞   |
-
-Agora devemos verificar o custo para cada um de seus vétices adjacentes que não tenham sido visitados ainda, e caso esse custo seja menor do que o já existente na tabela, atualizamos.
+Atualizamos o custo na tabela de caminhos mínimos, como estamos no vértice inicial o custo é 0. Agora devemos verificar o custo para cada um de seus vétices adjacentes que não tenham sido visitados ainda, e caso esse custo seja menor do que o já existente na tabela, atualizamos.
 
 Para os vizinhos não visitados de (0) temos o vétice (1) com custo 4 e o vértice (2) com custo 2. Como ambos os custos são menores que infinito, atualizamos a tabela.
 | Vértices | [0]  |  1   |  2   |  3   |  4   |
