@@ -100,7 +100,9 @@ O algoritmo de Bellman-Ford, assim como o de Dijkstra, serve para encontrarmos o
 
 A ideia do algoritmo parte do princípio que se temos um grafo com n vértices o maior caminho para chegar a um outro vértice passará por no máximo (n - 1) vértices. Se essa regra não for satisfeita, significa que temos um ciclo negativo no nosso grafo, e nesse caso, não é possível encontrar o menor caminho, já que a cada vez que passarmos pelo ciclo negativo nosso custo diminuiria.
 
-Uma vez que nosso grafo satisfaça essa condição, o algoritmo irá analizar, no máximo (n - 1) vezes, o custo para chegar em cada vértice considerando o custo encontrado para o vértice atual na iteração anteriores. Embora as iterações aconteçam no máximo (n - 1) vezes isso não quer dizer que sempre será dessa forma. Se em alguma iteração nós não atualizarmos nenhum dos valores da tabela nosso algoritmo pode ser interrompido.
+Uma vez que nosso grafo satisfaça essa condição, o algoritmo irá analizar, no máximo (n - 1) vezes, o custo para chegar em cada vértice considerando o custo encontrado para o vértice atual nas iterações anteriores. 
+
+Embora as iterações aconteçam no máximo (n - 1) vezes isso não quer dizer que sempre será dessa forma. Se em alguma iteração nós não atualizarmos nenhum dos valores da tabela nosso algoritmo pode ser interrompido.
 
 **Exemplo:** Considere o grafo abaixo com as arestas indicadas. Começaremos a visitação pelo vértice (0).
 
