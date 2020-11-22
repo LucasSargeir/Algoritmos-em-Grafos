@@ -98,7 +98,7 @@ Podemos também montar um novo grafo seguindo os menores trajetos, veja:
 
 O algoritmo de Bellman-Ford, assim como o de Dijkstra, serve para encontrarmos o menor caminho entre um vértice e todos os outros. Diferente do algoritmo anterior, esse pode ser utilizado quando temos pesos negativos em nossas arestas. Apesar disso ele é um pouco mais custoso do que o visto anteriomente.
 
-A ideia do algoritmo parte do princípio que se temos um grafo com n vértices o maior caminho para chegar a um outro vértice passará por no máximo (n - 1) vértices. Se essa regra não for satisfeita, significa que temos um ciclo negativo no nosso grafo, e nesse caso, não é possível encontrar o menor caminho uma vez que a cada ciclo negativo nosso custo diminue.
+A ideia do algoritmo parte do princípio que se temos um grafo com n vértices o maior caminho para chegar a um outro vértice passará por no máximo (n - 1) vértices. Se essa regra não for satisfeita, significa que temos um ciclo negativo no nosso grafo, e nesse caso, não é possível encontrar o menor caminho, já que a cada vez que passarmos pelo ciclo negativo nosso custo diminuiria.
 
 Uma vez que nosso grafo satisfaça essa condição, o algoritmo irá analizar, no máximo (n - 1) vezes, o custo para chegar em cada vértice considerando o custo encontrado para o vértice atual na iteração anteriores. Embora as iterações aconteçam no máximo (n - 1) vezes isso não quer dizer que sempre será dessa forma. Se em alguma iteração nós não atualizarmos nenhum dos valores da tabela nosso algoritmo pode ser interrompido.
 
