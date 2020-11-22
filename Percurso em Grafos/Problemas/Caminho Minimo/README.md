@@ -118,7 +118,7 @@ Caminharemos por cada vértice, sequencialmente, 5 vezes, verificando se o custo
 
 Verificamos que seus vizinhos são o vértice (1) com custo 10 e o vértice (5) com custo 8. Como os custos são menores que os guardados na tabela, substituimos.
 
-![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo14.png)
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo15.png)
 
 | Vértices | [0]  |       1       |  2   |  3   |  4   |      5      |
 | -------- | :--: | :-----------: | :--: | :--: | :--: | :---------: |
@@ -130,7 +130,7 @@ Verificamos que seus vizinhos são o vértice (1) com custo 10 e o vértice (5) 
 
 Verificamos que seu único vizinhos é o vértice (3) com custo 2. Como o custo é menor que o guardado na tabela, substituimos.
 
-![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo15.png)
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo16.png)
 
 | Vértices |  0   | [1]  |  2   |       3       |  4   |  5   |
 | -------- | :--: | :--: | :--: | :-----------: | :--: | :--: |
@@ -148,7 +148,7 @@ Repare que não sabemos como chegar no vértice (2) ainda, pois sua distância �
 
 Verificamos que seu único vizinhos é o vértice (2) com custo -2. Como o custo é menor que o guardado na tabela, substituimos.
 
-![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo16.png)
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo17.png)
 
 | Vértices |  0   |  1   |       2       | [3]  |  4   |  5   |
 | -------- | :--: | :--: | :-----------: | :--: | :--: | :--: |
@@ -166,7 +166,7 @@ Repare que não sabemos como chegar no vértice (2) ainda, pois sua distância �
 
 Verificamos que seu único vizinhos é o vértice (2) com custo -2. Como o custo é menor que o guardado na tabela, substituimos.
 
-![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo17.png)
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo18.png)
 
 | Vértices |  0   |  1   |  2   |  3   |      4      | [5]  |
 | -------- | :--: | :--: | :--: | :--: | :---------: | :--: |
