@@ -41,10 +41,10 @@ class Graph:
         text += 'Ver.\t'
         vertices_size = len(graph)
         for v in range(vertices_size):
-            text += '('+str(v+1)+')\t'
+            text += '('+str(v)+')\t'
         text += '\n'
         for i in range(vertices_size):
-            text += '('+str(i+1)+')\t'
+            text += '('+str(i)+')\t'
             for j in range(len(graph)):
                 text += str(graph[i][j])+'\t'
             text += '\n'
