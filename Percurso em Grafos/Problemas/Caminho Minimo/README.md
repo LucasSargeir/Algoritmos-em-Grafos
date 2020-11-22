@@ -104,7 +104,7 @@ Uma vez que nosso grafo satisfaça essa condição, o algoritmo irá analizar, n
 
 **Exemplo:** Considere o grafo abaixo com as arestas indicadas. Começaremos a visitação pelo vértice (0).
 
-![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo13.png)
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo14.png)
 
 Como temos 6 vértices nosso número de iterações será (n - 1) = 5.
 
@@ -130,7 +130,7 @@ Verificamos que seus vizinhos são o vértice (1) com custo 10 e o vértice (5) 
 
 Verificamos que seu único vizinhos é o vértice (3) com custo 2. Como o custo é menor que o guardado na tabela, substituimos.
 
-![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo16.png)
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo15.png)
 
 | Vértices |  0   | [1]  |  2   |       3       |  4   |  5   |
 | -------- | :--: | :--: | :--: | :-----------: | :--: | :--: |
@@ -148,7 +148,7 @@ Repare que não sabemos como chegar no vértice (2) ainda, pois sua distância �
 
 Verificamos que seu único vizinhos é o vértice (2) com custo -2. Como o custo é menor que o guardado na tabela, substituimos.
 
-![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo17.png)
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo16.png)
 
 | Vértices |  0   |  1   |       2       | [3]  |  4   |  5   |
 | -------- | :--: | :--: | :-----------: | :--: | :--: | :--: |
@@ -166,7 +166,7 @@ Repare que não sabemos como chegar no vértice (2) ainda, pois sua distância �
 
 Verificamos que seu único vizinhos é o vértice (2) com custo -2. Como o custo é menor que o guardado na tabela, substituimos.
 
-![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo18.png)
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo17.png)
 
 | Vértices |  0   |  1   |  2   |  3   |      4      | [5]  |
 | -------- | :--: | :--: | :--: | :--: | :---------: | :--: |
