@@ -24,4 +24,3 @@ if __name__ == "__main__":
 				   [inf, -1,inf, 0 ]])
 
 	print_m(floyd_wharshall(graph))
-	print(graph)
