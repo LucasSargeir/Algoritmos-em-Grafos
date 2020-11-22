@@ -154,11 +154,13 @@ graph = Graph([ [ 0 , 4 , 2 ,inf,inf],
 
     
 
-  - `set_weight`: lista de pesos referentes ao novo vértice a serem inseridos nos vértices já existentes.
+  - `set_weight`**(opcional)**: lista de pesos referentes ao novo vértice a serem inseridos nos vértices já existentes.
 
     O tamanho da lista deverá ser **(número de vértices antes da inserção)** representando os pesos a serem inserido em cada vértice já existente .
 
   ![exemplo5](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo9.png)
+
+> **Obs:** Caso esse parâmetro não seja passado sera considerado o valor ∞, ou seja, que nenhum vértice chega a esse.
 
 
 
