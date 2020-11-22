@@ -13,6 +13,8 @@ def bellman_ford(graph: Graph, src: int):
 		has_update = False
 
 		for j in range(total_v):
+			if distance[j] == infinity:
+				continue
 			adj_list = graph.get_adj_list(j)
 			for k in range(len(adj_list)):
 				if distance[j] + graph_matrix[j][adj_list[k]] < distance[adj_list[k]]:
