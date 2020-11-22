@@ -130,7 +130,7 @@ Esse erro é lançado quando temos mais linhas do que colunas na nossa matriz de
 - Code 02:
 
 ```python
-#Exception: To much vertices in adjacency matrix on line <linha> | code 02
+#Exception: Too much vertices in adjacency matrix on line <linha> | code 02
 ```
 
 Esse erro é lançado quando temos mais colunas do que linhas na nossa matriz de adjacência. Onde `<linha>` será qual das linha da matriz da adjacência que têm argumentos a mais.
