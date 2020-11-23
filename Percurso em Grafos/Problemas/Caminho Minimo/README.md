@@ -24,7 +24,6 @@ Para solucionar o problema de caminho mínimo em um grafo podemos utilizar algun
 
 
 
-
 ## Dijkstra
 
 O algortimo de Dijkstra pode ser usado para encontrar o menor caminho caminho entre um vértice e todos os outros de um determinado grafo. Embora seja um algoritmo simples de implementar e que funcione de forma eficiente, o algoritmo de Dijkstra possui a limitação de que todas as arestas devem ter pesos positivos.
@@ -336,7 +335,13 @@ Podemos também montar um novo grafo seguindo os menores trajetos, veja:
 
 ## Floyd-Wharshall
 
+O algortimo de Floyd-Wharshall pode ser usado para encontrar o menor caminho entre todos os vértices, partindo de todos os vértices, de um determinado grafo. No quesito implementação esse é um dos algoritmos mais fáceis de implementar, consiste em 3 loops para testar todas as possibilidades de caminho e ir substituindo em uma matriz de distâncias.
 
+A ideia do algoritmo é através de uma matriz de adjacência percorrer cada elemento, que representa uma aresta do grafo, e verificar todas as possibilidades do vértice de saída chegar ao vértice de entrada. Se a soma de uma aresta que sai do vértice de saida com uma aresta que chegue no meu vértice de entrada for menor que o valor da aresta que eu estou analisando, significa que há uma forma menos custosa de chegar aquele vétice, neste caso substituimos os valores.
+
+Veja abaixo um exemplo de como uma matriz de adjacência 4x4 é percorrida:
+
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo21.gif)
 
 
 
