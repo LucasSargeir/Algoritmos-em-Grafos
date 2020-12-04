@@ -347,7 +347,63 @@ Veja abaixo um exemplo de como uma matriz de adjacência 4x4 é percorrida:
 
 ## Johnson
 
+O algoritmo de Johnson, assim como o de Floyd-Wharshallpode ser usado para encontrar o menor caminho entre todos os vértices, partindo de todos os vértices, de um determinado grafo. Quando temos um grafo esparço o algoritmo de Johnson é mais eficiente do que o visto anteriormente.
 
+A ideia desse algoritmo visa acabar com as arestas negativas, e utilizar o algoritmo de Dijkstra partindo de casa um dos vértices. Após isso, podemos voltar a transformação. Veja o exemplo abaixo:
+
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo22.png)
+
+
+
+Para garantir que eu possa encontrar o caminho para todos os vértices, mesmo que ele não exista, precisamos de um vértice que chegue em todos os outros. Para garantirmos isso criamos um novo vértice, temporariamente, que se conecte a todos os outros. Como não queremos que ele influencie em nossas distâncias ele terá custo 0 para chegar em qualquer vértice. Veja o exemplo:
+
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo23.png)
+
+Para acabar com as arestas negativas vamos utilizar o algoritmo de Bellman-Ford partindo no vértice **Q**  criado. Utilizaremos os custo encontrados para cada um do vértices na transformação. Utilizando o algoritmo de Bellman-Ford temos:
+
+| Vértice  |  0   |  1   |  2   |  3   |  4   |  5   |
+| :------: | :--: | :--: | :--: | :--: | :--: | :--: |
+| **C.M.** |  0   |  -2  |  -3  |  -1  |  0   |  -6  |
+
+Agora que temos um peso para cada vértice utilizamos a seguinte fórmula para transformar cada aresta:
+
+```pseudocode
+novo_custo = custo_atual + custo_bf_origem - custo_bf_chegadanovo_custo = custo_atual + custo_bf_origem - custo_bf_chegada
+```
+
+Onde:
+
+- `novo_custo`: novo valor para a aresta, sempre será positivo.
+- `custo_atual`: a valor da aresta que está sendo analisada.
+
+- `custo_bf_origem`: o custo encontrado para chegar no vértice de origem da aresta analisada em Bellman_Ford.
+
+- `custo_bf_chegada`: o custo encontrado para chegar no vértice de chegada da aresta analisada  em Bellman_Ford.
+
+
+
+Após realizar a transformação podemos remover o vértice antes criado. Feito isso nosso grafo deve estar da seguinte forma:
+
+![Imagem do Grafo](https://github.com/LucasSargeir/Algoritmos-em-Grafos/blob/master/images/exemplo24.png)
+
+
+
+Agora que os custos de cada aresta são positivos podemos usar o algoritmo de Dijkstra em cada um dos vértices e encontrar o menor caminho de todos os vértices para todos os vértices, formando uma nova matriz de adjacência. Mas ainda não terminamos, após encontrar o caminho mínimo precisamos voltar a trasnformação feita antes para que as distâncias estejam relacionadas ao grafo inicial. Para voltar a transformação utilizamos a seguinte fórmula para voltar as arestas:
+
+```pseudocode
+novo_custo = custo_atual - custo_bf_origem + custo_bf_chegada
+```
+
+Onde:
+
+- `novo_custo`: o novo valor da aresta voltando a transformação.
+- `custo_atual`: a valor da aresta após a transformação.
+
+- `custo_bf_origem`: o custo encontrado para chegar no vértice de origem da aresta analisada  em Bellman_Ford.
+
+- `custo_bf_chegada`: o custo encontrado para chegar no vértice de chegada da aresta analisada  em Bellman_Ford.
+
+Após isso teremos uma nova matriz de adjacência com o menor custo para cada vértice partindo de todos os vértices.
 
 
 
