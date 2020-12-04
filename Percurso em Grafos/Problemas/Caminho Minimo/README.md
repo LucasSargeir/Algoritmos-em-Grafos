@@ -368,7 +368,7 @@ Para acabar com as arestas negativas vamos utilizar o algoritmo de Bellman-Ford 
 Agora que temos um peso para cada vértice utilizamos a seguinte fórmula para transformar cada aresta:
 
 ```pseudocode
-novo_custo = custo_atual + custo_bf_origem - custo_bf_chegadanovo_custo = custo_atual + custo_bf_origem - custo_bf_chegada
+novo_custo = custo_atual + custo_bf_origem - custo_bf_chegada
 ```
 
 Onde:
@@ -397,15 +397,18 @@ novo_custo = custo_atual - custo_bf_origem + custo_bf_chegada
 Onde:
 
 - `novo_custo`: o novo valor da aresta voltando a transformação.
+
 - `custo_atual`: a valor da aresta após a transformação.
 
 - `custo_bf_origem`: o custo encontrado para chegar no vértice de origem da aresta analisada  em Bellman_Ford.
 
 - `custo_bf_chegada`: o custo encontrado para chegar no vértice de chegada da aresta analisada  em Bellman_Ford.
 
+  
+
 Após isso teremos uma nova matriz de adjacência com o menor custo para cada vértice partindo de todos os vértices.
 
-
+ 
 
 ## Usabilidade
 
